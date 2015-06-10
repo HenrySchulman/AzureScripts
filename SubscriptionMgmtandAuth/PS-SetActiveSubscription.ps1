@@ -18,7 +18,7 @@ Write-Host "$subscriptionNameToSetActive is set as the active subscription."
 Catch{
     Write-Host 'Error occured while attempting to create Storage Account'
     #Return the error message
-    Return $_.
+    Return $_
 }
 
 Finally{
